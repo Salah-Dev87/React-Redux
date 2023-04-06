@@ -1,12 +1,12 @@
 const initialeState = {
     villes:[
         {id:1, nom:"Agadir"},
-        {id:2, nom:"Tafraout"},
+        {id:2, nom:"Casa"},
         {id:3, nom:"Tiznit"}
     ],
     users:[
-        {id:1, nom:"Salah", prenom:"Azaif", ville:3},
-        {id:2, nom:"Hamza", prenom:"Zaidan", ville:1},
+        {id:1, nom:"Mohamed", prenom:"Amin", ville:3},
+        {id:2, nom:"Morad", prenom:"Yassin", ville:1},
     ]
 }
 const reducer =(state=initialeState,action)=>{
